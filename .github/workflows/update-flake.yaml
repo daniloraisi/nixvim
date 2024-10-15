@@ -1,6 +1,7 @@
 on:
   schedule:
     - cron: "30 00 * * 1"
+  workflow_dispatch:
 
 jobs:
   lockfile:
