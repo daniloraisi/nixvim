@@ -14,9 +14,9 @@ jobs:
         uses: DeterminateSystems/nix-installer-action@v14
 
       - name: Update flake.lock
-        uses: DeterminateSystems/update-flake-lock@v4
+        uses: DeterminateSystems/update-flake-lock@main
         with:
-          nix-option: --debug --log-format raw
+          nix-options: --debug --log-format raw
           token: ${{ secrets.FLAKE_TOKEN }}
           pr-title: "deps: update flake.lock"
           pr-labels: |
