@@ -1,5 +1,12 @@
 # NixVim Configuration
 
+<div align="center">
+
+![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/daniloraisi/nixvim/renovate.yaml?branch=main&style=for-the-badge&logo=renovate&label=Renovate)
+![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/daniloraisi/nixvim/update-flake.yaml?branch=main&style=for-the-badge&logo=nixos&label=Flake%20Update)
+
+</div>
+
 This repository contains my personal configuration NixVim, a Neovim configuration managed with Nix.
 
 ## How to use
