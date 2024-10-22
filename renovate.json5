@@ -4,5 +4,5 @@
   "semanticCommits": true,
   "labels": ["renovate"],
   "repositories": ["daniloraisi/nixvim"],
-  "extends": ["config:recommended"],
+  "extends": ["config:recommended", ":dependencyDashboard"],
 }
