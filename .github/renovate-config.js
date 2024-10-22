@@ -5,5 +5,5 @@ module.exports = {
   platform: 'github',
   forkProcessing: 'enabled',
   dryRun: 'full',
-  repositories: ['daniloraisi/nixvim''],
+  repositories: ['daniloraisi/nixvim'],
 };
