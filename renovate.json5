@@ -1,8 +1,6 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "platform": "github",
   "semanticCommits": "enabled",
   "labels": ["renovate"],
-  "repositories": ["daniloraisi/nixvim"],
   "extends": ["config:recommended", ":dependencyDashboard"]
 }
